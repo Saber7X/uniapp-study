@@ -12,6 +12,7 @@ export const useMemberStore = defineStore(
         // 保存会员信息，登录时使用，接受一个值
         const setProfile = (val : any) => { // 4. 定义一个函数 setProfile，用于设置 profile 的值
             profile.value = val // 5. 将传入的参数 val 赋值给 profile 的响应式值
+
         }
 
         // 清理会员信息，退出时使用
